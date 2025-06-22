@@ -3,7 +3,7 @@ import Space from '../components/Space'
 
 function HomePage() {
   return (
-    <div className='home relative'>
+    <div className='flex sm:flex-row flex-col home  sm:relative md:w-full w-[375px]'>
         <Space/>
       
     </div>

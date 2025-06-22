@@ -37,20 +37,20 @@ function DestinationComponents() {
     
       const current = destinations.find((d) => d.name === selected);
   return (
-    <div className=' mt-[210px] mx-auto gap-30 text-white  w-[900px] items-start '>
-        <div className='flex gap-1'>
-            <p className='font-[700] text-[28px] text-[#FFFFFF]/9 leading-[100%]'>01</p>
-            <h2 className='font-[400] text-[28px] leading-[100%]'>Pick Your Destination</h2>
+    <div className=' sm:mt-[210px] mt-[120px] mx-auto sm:gap-30 gap-6 text-white  sm:w-[900px] w-[375px] sm:items-start '>
+        <div className='flex gap-1 sm:justify-start justify-center'>
+            <p className='font-[700] sm:text-[28px] text-[18px] text-[#FFFFFF]/9 leading-[100%]'>01</p>
+            <h2 className='font-[400] sm:text-[28px] text-[18px] leading-[100%]'>Pick Your Destination</h2>
         </div>
-        <div className='flex items-center gap-30 mt-[50px] w-[440x] justify-center'>
-            <img src={current.image} alt={current.name} className='w-86 h-86'  />
-            <div className='flex flex-col w-[300px] gap-3'>
-                <div className="flex justify-center gap-6 mb-6">
+        <div className='flex sm:flex-row flex-col items-center sm:gap-30 gap-10 mt-[50px] sm:w-[440x] justify-center'>
+            <img src={current.image} alt={current.name} className='sm:w-86 sm:h-86 w-30 h-30'  />
+            <div className='flex flex-col w-[300px] gap-3 sm:items-start items-center'>
+                <div className="flex sm:justify-center  gap-6 mb-6">
                     {destinations.map((d) => (
                     <button
                         key={d.name}
                         onClick={() => setSelected(d.name)}
-                        className={`uppercase tracking-widest ${
+                        className={`uppercase tracking-widest text-[12px] ${
                         selected === d.name ? "border-b-2 border-white" : "text-gray-400"
                         } pb-2 transition cursor-pointer`}
                     >
@@ -58,12 +58,12 @@ function DestinationComponents() {
                     </button>
                     ))}
                 </div>
-                <div className='flex flex-col justify-center  w-[300px] gap-3  '>
-                    <h1 className='font-[400] text-[70px] leading-[100%] space text-start'>{current.name}</h1>
+                <div className='flex flex-col justify-center  sm:w-[300px] w-[260px] sm:gap-3  '>
+                    <h1 className='font-[400] sm:text-[70px] text-[35px] sm:leading-[100%] space text-start'>{current.name}</h1>
                     <p className='font-[400] text-[12px] leading-[20px] text-start pr-[10px] text-[#D0D6F9]'>{current.description}</p>
                 </div>
                 <div className='w-[300px] h-[1px] bg-[#383B4B] mt-[20px]'></div>
-                <div className="flex gap-12 mt-4">
+                <div className="flex sm:gap-12 gap-6 sm:mt-4">
                 <div>
                     <p className="uppercase text-sm text-gray-400">Avg. Distance</p>
                     <p className="text-lg space">{current.distance}</p>
