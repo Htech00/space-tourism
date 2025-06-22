@@ -52,7 +52,7 @@ function DestinationComponents() {
                         onClick={() => setSelected(d.name)}
                         className={`uppercase tracking-widest ${
                         selected === d.name ? "border-b-2 border-white" : "text-gray-400"
-                        } pb-2 transition`}
+                        } pb-2 transition cursor-pointer`}
                     >
                         {d.name}
                     </button>
