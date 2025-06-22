@@ -23,7 +23,7 @@ const crewData = [
     name: "Anousheh Ansari",
     role: "Flight Engineer",
     bio: "Anousheh Ansari is the first self-funded woman to fly to the ISS and the first Iranian in space.",
-    image: "/Images/Anousheh-crew.png",
+    image: "/images/Anousheh-crew.png",
   },
 ];
 
