@@ -1,0 +1,59 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url("https://fonts.googleapis.com/css2?family=Bellefair&display=swap");
+
+#root {
+  max-width: 1440px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.home{
+  background-image: url("../public/images/Home\ Background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  font-family: "Barlow Condensed", sans-serif;
+
+}
+
+.destination{
+  background-image: url("../public/images/Destination\ background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  font-family: "Barlow Condensed", sans-serif;
+
+}
+
+.crew{
+  background-image: url("../public/images/Crew\ background.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  font-family: "Barlow Condensed", sans-serif;
+
+}
+
+.tech{
+  background-image: url("../public/images/Crew\ background.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  font-family: "Barlow Condensed", sans-serif;  
+
+}
+
+
+.space {
+  font-family: "Bellefair", serif;
+}
+
