@@ -4,25 +4,25 @@ const crewData = [
     name: "Douglas Hurley",
     role: "Commander",
     bio: "Douglas Gerald Hurley is an American engineer, former Marine Corps pilot and former NASA astronaut.",
-    image: "/public/Images/Douglas-crew.png",
+    image: "/Images/Douglas-crew.png",
   },
   {
     name: "Mark Shuttleworth",
     role: "Mission Specialist",
     bio: "Mark Richard Shuttleworth is the founder of Canonical, the company behind Ubuntu.",
-    image: "/public/Images/Mark-crew.png",
+    image: "/Images/Mark-crew.png",
   },
   {
     name: "Victor Glover",
     role: "Pilot",
     bio: "Pilot on the first operational flight of the SpaceX Crew Dragon to the International Space Station.",
-    image: "/public/Images/Victor-crew.png",
+    image: "/Images/Victor-crew.png",
   },
   {
     name: "Anousheh Ansari",
     role: "Flight Engineer",
     bio: "Anousheh Ansari is the first self-funded woman to fly to the ISS and the first Iranian in space.",
-    image: "/public/Images/Anousheh-crew.png",
+    image: "/Images/Anousheh-crew.png",
   },
 ];
 
