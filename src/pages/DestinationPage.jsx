@@ -4,7 +4,7 @@ import DestinationComponents from '../components/DestinationComponents';
 function DestinationPage() {
   return (
     
-    <div className='destination flex sm:flex-row flex-col  sm:relative md:w-full w-[375px]'>
+    <div className='destination flex sm:flex-row flex-col  sm:relative md:w-full w-full'>
      <DestinationComponents />
     </div>
   )

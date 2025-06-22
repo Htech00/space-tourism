@@ -34,7 +34,7 @@ function CrewComponents() {
   const current = crewData.find((member) => member.name === selected);
 
   return (
-    <div className="text-white text-start sm:items-start flex flex-col sm:gap-[50px] sm:w-[900px] w-[350px] sm:mt-[120px]">
+    <div className="text-white text-start sm:items-start flex flex-col sm:gap-[50px] sm:w-[900px] w-[375px] sm:mt-[120px]">
       <h4 className="sm:text-[28px] text-[18px] font-normal">
         <span className="opacity-[25%]">02 </span>MEET YOUR CREW
       </h4>
