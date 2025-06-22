@@ -1,22 +1,23 @@
-import React, { useState } from 'react'
+import React, { useState } from 'react';
+
 const crewData = [
   {
     name: "Douglas Hurley",
     role: "Commander",
     bio: "Douglas Gerald Hurley is an American engineer, former Marine Corps pilot and former NASA astronaut.",
-    image: "/Images/Douglas-crew.png",
+    image: "/images/Douglas-crew.png",
   },
   {
     name: "Mark Shuttleworth",
     role: "Mission Specialist",
     bio: "Mark Richard Shuttleworth is the founder of Canonical, the company behind Ubuntu.",
-    image: "/Images/Mark-crew.png",
+    image: "/images/Mark-crew.png",
   },
   {
     name: "Victor Glover",
     role: "Pilot",
     bio: "Pilot on the first operational flight of the SpaceX Crew Dragon to the International Space Station.",
-    image: "/Images/Victor-crew.png",
+    image: "/images/Victor-crew.png",
   },
   {
     name: "Anousheh Ansari",
@@ -63,7 +64,7 @@ function CrewComponents() {
          
 
     </div>
-  )
-}
+  );
+};
 
-export default CrewComponents
+export default CrewComponents;

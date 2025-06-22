@@ -10,7 +10,7 @@
 }
 
 .home{
-  background-image: url("../public/images/Home\ Background.jpg");
+  background-image: url("../images/Home\ Background.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -21,7 +21,7 @@
 }
 
 .destination{
-  background-image: url("../public/images/Destination\ background.jpg");
+  background-image: url("../images/Destination\ background.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -32,7 +32,7 @@
 }
 
 .crew{
-  background-image: url("../public/images/Crew\ background.png");
+  background-image: url("../images/Crew\ background.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -43,7 +43,7 @@
 }
 
 .tech{
-  background-image: url("../public/images/Technology\ background.png");
+  background-image: url("../images/Technology\ background.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

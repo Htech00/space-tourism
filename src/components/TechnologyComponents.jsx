@@ -7,7 +7,7 @@ function TechnologyComponents() {
 
    useEffect(() => {
         // fetch the data from your JSON file in public/
-        fetch("/public/technology.json")
+        fetch("/technology.json")
         .then((res) => res.json())
         .then((techData) => {
             setData(techData); // save the fetched data
