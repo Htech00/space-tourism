@@ -34,7 +34,7 @@ function CrewComponents() {
   const current = crewData.find((member) => member.name === selected);
 
   return (
-    <div className="text-white text-start sm:items-start flex flex-col sm:gap-[50px] sm:w-[900px] w-[375px] sm:mt-[120px]">
+    <div className="text-white text-start sm:items-start flex flex-col sm:gap-[50px] sm:w-[900px] w-[375px] sm:mt-[100px]">
       <h4 className="sm:text-[28px] text-[18px] font-normal">
         <span className="opacity-[25%]">02 </span>MEET YOUR CREW
       </h4>
@@ -58,12 +58,12 @@ function CrewComponents() {
             ))}
           </div>
       </div>
-        <img src={current.image} alt={current.image} className="sm:h-[310px] sm:mt-0 mt-10 sm:w-[300px] h-[200px] w-[200px]"/>
+        <img src={current.image} alt={current.image} className="sm:h-[310px] sm:mt-0 mt-3 sm:w-[300px] h-[200px] w-[200px]"/>
           
       </div>
       
       {/*Mobile Dots Navigation */}
-          <div className="flex gap-5 mt-10 sm:hidden">
+          <div className="flex gap-5 mt-5 sm:hidden">
             {crewData.map((c) => (
               <button
                 key={c.name}

@@ -2,7 +2,7 @@ import React from 'react'
 
 function Space() {
   return (
-    <div className="flex sm:flex-row flex-col sm:mt-auto mt-[200px] gap-[80px] items-center mx-auto  sm:gap-[200px] sm:text-start sm:items-end sm:w-[900px] w-[375px]">
+    <div className="flex sm:flex-row flex-col sm:mt-auto mt-[150px] gap-[80px] items-center mx-auto  sm:gap-[200px] sm:text-start sm:items-end sm:w-[900px] w-[375px]">
         <div className="sm:w-[450px] w-[350px]  sm:h-[382px] text-white leading-[1]">
           <h3 className="sm:text-[28px] text-[18px] font-normal">SO, YOU WANT TO TRAVEL TO</h3>
           <h1 className="sm:text-[120px] text-[60px] font-normal pb-[40px] space">SPACE</h1>

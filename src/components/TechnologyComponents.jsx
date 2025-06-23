@@ -48,7 +48,7 @@ function TechnologyComponents() {
 
         {/* Image */}
         <div>
-          <img src={tech.image} alt={tech.name} className="sm:w-[350px] sm:h-[351px] w-[300px] h-[300px]" />
+          <img src={tech.image} alt={tech.name} className="sm:w-[350px] sm:h-[351px] w-[300px] h-[210px]" />
         </div>
       </div>
 

@@ -37,7 +37,7 @@ function DestinationComponents() {
     
       const current = destinations.find((d) => d.name === selected);
   return (
-    <div className=' sm:mt-[180px] mt-[120px] mx-auto sm:gap-30 gap-6 text-white  sm:w-[900px] w-[375px] sm:items-start '>
+    <div className=' sm:mt-[180px] mt-[100px] mx-auto sm:gap-30 gap-6 text-white  sm:w-[900px] w-[375px] sm:items-start '>
         <div className='flex gap-1 sm:justify-start justify-center'>
             <p className='font-[700] sm:text-[28px] text-[18px] text-[#FFFFFF]/9 leading-[100%]'>01</p>
             <h2 className='font-[400] sm:text-[28px] text-[18px] leading-[100%]'>Pick Your Destination</h2>
@@ -62,7 +62,7 @@ function DestinationComponents() {
                     <h1 className='font-[400] sm:text-[70px] text-[35px] sm:leading-[100%] space text-start'>{current.name}</h1>
                     <p className='font-[400] text-[12px] leading-[20px] text-start pr-[10px] text-[#D0D6F9]'>{current.description}</p>
                 </div>
-                <div className='w-[300px] h-[1px] bg-[#383B4B] mt-[20px]'></div>
+                <div className='w-[300px] h-[1px] bg-[#383B4B] mt-[10px]'></div>
                 <div className="flex sm:gap-12 gap-6 sm:mt-4">
                 <div>
                     <p className="uppercase text-sm text-gray-400">Avg. Distance</p>
