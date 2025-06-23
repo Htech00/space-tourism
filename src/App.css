@@ -8,9 +8,7 @@
   margin: 0 auto;
   text-align: center;
 }
-.blurry{
-  height: 1000%;
-}
+
 .home{
   background-image: url("../images/Home\ Background.jpg");
   background-size: cover;

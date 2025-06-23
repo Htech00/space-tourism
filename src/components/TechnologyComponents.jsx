@@ -21,7 +21,7 @@ function TechnologyComponents() {
     const tech = data[current]; // get the current item from the array
   return (
     <div className='flex flex-col sm:mx-auto sm:w-full w-[350px]  text-white items-start sm:p-6 ' >
-      <h2 className="sm:text-[28px] uppercase sm:mt-[170px] mt-[100px] sm:ml-[100px] ml-[50px] ">03 Space Launch 101</h2>
+      <h2 className="sm:text-[28px] uppercase sm:mt-[150px] mt-[100px] sm:ml-[100px] ml-[50px] ">03 Space Launch 101</h2>
 
       <div className="flex sm:flex-row flex-col sm:w-full w-[300px]  sm:mt-0 mt-[20px] sm:items-center sm:ml-0 ml-auto items-start sm:gap-10 gap-6">
         {/* Buttons */}
@@ -48,7 +48,7 @@ function TechnologyComponents() {
 
         {/* Image */}
         <div>
-          <img src={tech.image} alt={tech.name} className="sm:w-[400px] sm:h-[451px] w-[300px] h-[300px]" />
+          <img src={tech.image} alt={tech.name} className="sm:w-[350px] sm:h-[351px] w-[300px] h-[300px]" />
         </div>
       </div>
 

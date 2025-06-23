@@ -45,7 +45,7 @@ function CrewComponents() {
         <p className="text-[18px] font-normal text-[#D0D6F9] sm:pr-70 ">
           {current.bio}
         </p>
-        {/* Dots Navigation */}
+        {/*Desktop Dots Navigation */}
           <div className="space-x-3 mt-4 hidden sm:block  ">
             {crewData.map((c) => (
               <button
@@ -62,7 +62,7 @@ function CrewComponents() {
           
       </div>
       
-      {/* Dots Navigation */}
+      {/*Mobile Dots Navigation */}
           <div className="flex gap-5 mt-10 sm:hidden">
             {crewData.map((c) => (
               <button
